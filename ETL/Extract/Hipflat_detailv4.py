@@ -323,7 +323,7 @@ def process_url(url, url_index, total_urls):
 
 
 def main():
-    csv_filename = "link2.csv"
+    csv_filename = "combined_links.csv"
     urls = read_urls_from_csv(csv_filename)
     total_urls = len(urls)
 
